@@ -1,6 +1,6 @@
 name = "esp32_application"
 description = "ESP32 Application Template"
-version = "0.2.0-dev"
+version = "0.1.0-dev"
 
 authors = ["RREE"]
 maintainers = ["RREE <rolf.ebert.gcc@gmx.de>"]
@@ -26,11 +26,6 @@ command = ["a0b-runtime",
            "--svd=crates/espidf_gnat_runtime/svd/esp32.svd",
            "--runtime-description=crates/espidf_gnat_runtime/runtime-esp32.json",
            "--no-startup"]
-#  esp32.svd / runtime-esp32.json / the LX6 architecture branch are not
-#  merged upstream yet -- this template currently depends on forks that
-#  carry them (see crates/*/README or .gitmodules). Tracking PRs:
-#    https://github.com/godunko/a0b-tools/pull/2
-#    https://github.com/godunko/espidf_gnat_runtime/pull/3
 
 [[pins]]
 a0b_tools = { path='crates/a0b-tools' }
