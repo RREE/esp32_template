@@ -1,0 +1,16 @@
+[submodule "crates/a0b-tools"]
+	path = crates/a0b-tools
+	url = git@github.com:RREE/a0b-tools.git
+	branch = main
+[submodule "crates/xtensa-dynconfig"]
+	path = crates/xtensa-dynconfig
+	url = git@github.com:RREE/xtensa-dynconfig.git
+	branch = main
+[submodule "crates/espidf_gnat_runtime"]
+	path = crates/espidf_gnat_runtime
+	url = git@github.com:RREE/espidf_gnat_runtime.git
+	branch = main
+[submodule "crates/bb-runtimes"]
+	path = crates/bb-runtimes
+	url = https://github.com/alire-project/bb-runtimes.git
+	branch = gnat-fsf-15

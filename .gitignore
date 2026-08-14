@@ -1,0 +1,16 @@
+*~
+.#*
+\#*#
+
+/.clangd
+/.libs/
+/.objs/
+/.vscode/
+/alire/
+/build/
+/config/
+/runtime/
+/main/tmp/
+/main/src/
+sdkconfig
+sdkconfig.old
