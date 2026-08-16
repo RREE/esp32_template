@@ -4,7 +4,7 @@
 	branch = main
 [submodule "crates/xtensa-dynconfig"]
 	path = crates/xtensa-dynconfig
-	url = git@github.com:RREE/xtensa-dynconfig.git
+	url = https://github.com/godunko/xtensa-dynconfig.git
 	branch = main
 [submodule "crates/espidf_gnat_runtime"]
 	path = crates/espidf_gnat_runtime
